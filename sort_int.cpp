@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-  const int testLen = 100000;
+  const int testLen = 10000;
 
   vector<int> vec(testLen);
   vector<int*> vecp(testLen);

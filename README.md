@@ -4,7 +4,8 @@
 
 - OS: MacOS Catalina 10.15.5
 - CPU: Intel Core i5
-- Value Count: 100000
+- Thread: Single
+- Value Count: 10000
 
 ## 1. sort integers
 
@@ -23,8 +24,8 @@ g++ sort_int.cpp -O3 -o sort_int -std=c++17
 - result
 
 ```txt
-sort pointers: total time=6.401000ms
-sort values: total time=6.495000ms
+sort pointers: total time=0.542000ms
+sort values: total time=0.578000ms
 ```
 
 ## 2. sort strings
@@ -44,6 +45,6 @@ g++ sort_string.cpp -O3 -o sort_string -std=c++17
 - result
 
 ```txt
-sort pointers: total time=29.152000ms
-sort values: total time=23.287001ms
+sort pointers: total time=1.807000ms
+sort values: total time=1.827000ms
 ```
